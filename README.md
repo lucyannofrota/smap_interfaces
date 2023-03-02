@@ -1,1 +1,1 @@
-# semantic_mapping_interfaces
+# smap_interfaces
