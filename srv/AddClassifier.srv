@@ -1,0 +1,13 @@
+# Name of the classifier
+string name
+# Type of the classifier
+string type
+# Architecture of the classifier
+string architecture
+---
+# If already exists a classifier with the provided name the result will be false
+bool is_new
+# Id of the classifier
+uint8 classifier_id
+# Return True if the operation was successfull
+bool success

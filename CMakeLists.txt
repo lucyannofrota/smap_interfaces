@@ -22,9 +22,9 @@ set(MSG_FILES
     "msg/SmapPrediction.msg"
 )
 
-#set(SRV_FILES
-#    "srv/AddThreeInts.srv"
-#)
+set(SRV_FILES
+    "srv/AddClassifier.srv"
+)
 
 rosidl_generate_interfaces(${PROJECT_NAME}    
     ${MSG_FILES}
