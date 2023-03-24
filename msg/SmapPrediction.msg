@@ -1,1 +1,1 @@
-uint8 classifier_id
+uint8 module_id

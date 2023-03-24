@@ -1,0 +1,13 @@
+# Name of the module
+string name
+# Type of the module
+string type
+# Architecture of the module
+string architecture
+---
+# If already exists a module with the provided name the result will be false
+bool is_new
+# Id of the module
+uint8 module_id
+# Return True if the operation was successfull
+bool success

@@ -23,7 +23,7 @@ set(MSG_FILES
 )
 
 set(SRV_FILES
-    "srv/AddClassifier.srv"
+    "srv/AddPerceptionModule.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}    
