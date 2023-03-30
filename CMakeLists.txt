@@ -20,6 +20,7 @@ find_package(geometry_msgs REQUIRED)
 set(MSG_FILES
     "msg/SmapData.msg"
     "msg/SmapPrediction.msg"
+    "msg/SmapDetectionDebug.msg"
 )
 
 set(SRV_FILES
