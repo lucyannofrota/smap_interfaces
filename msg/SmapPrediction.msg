@@ -1,3 +1,3 @@
 uint8 module_id
-uint16 detections
-sensor_msgs/RegionOfInterest[] rois
+uint8[] detections
+smap_interfaces/BoundingBox2D[] bounding_boxes

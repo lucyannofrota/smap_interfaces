@@ -21,6 +21,8 @@ set(MSG_FILES
     "msg/SmapData.msg"
     "msg/SmapPrediction.msg"
     "msg/SmapDetectionDebug.msg"
+    "msg/BoundingBox2D.msg"
+    "msg/BoundingBox3D.msg"
 )
 
 set(SRV_FILES
