@@ -1,0 +1,6 @@
+# This message is used in a handshake between smap server and smap modules
+
+uint8 module_id # unique id of the module on the server
+---
+uint16 n_classes # Number of classification classes registered on the server
+string[] classes # Names of classes know by the Server.

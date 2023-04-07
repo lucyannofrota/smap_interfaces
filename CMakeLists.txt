@@ -28,6 +28,7 @@ set(MSG_FILES
 
 set(SRV_FILES
     "srv/AddPerceptionModule.srv"
+    "srv/SmapClasses.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}    
