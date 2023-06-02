@@ -1,0 +1,4 @@
+smap_interfaces/SmapObject object
+
+geometry_msgs/PoseStamped robot_pose
+float32 direction

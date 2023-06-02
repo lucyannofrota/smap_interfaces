@@ -20,6 +20,7 @@ find_package(geometry_msgs REQUIRED)
 set(MSG_FILES
     "msg/SmapData.msg"
     "msg/SmapObject.msg"
+    "msg/SmapObservation.msg"
     "msg/SmapDetections.msg"
     "msg/SmapDetectionDebug.msg"
     "msg/BoundingBox2D.msg"
