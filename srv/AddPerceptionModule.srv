@@ -4,8 +4,8 @@ string name # Name of the module | Name must be unique
 string type # Type of the module | 'object' or 'place'
 string architecture # Architecture of the module | (e.g.) yolo_v5
 uint16 n_classes # Number of classification classes of the detector
-string[] classes # Names of classes know by the detector. The names must be ordered to match the int corresponding values
-# classes (e.g.) "keyboard;mouse;laptop"
+string[] classes # Names of classes know by the detector. The names must be ordered to match the uint16 corresponding values
+uint16[] class_ids # ids of classes
 ---
 bool is_new # If already exists a module with the provided name the result will be false
 uint8 module_id # unique id of the module on the server
