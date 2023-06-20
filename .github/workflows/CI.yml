@@ -10,7 +10,7 @@ jobs:
     name: smap_interfaces build
     runs-on: ubuntu-20.04
     steps:
-      - name: Checking out
+      - name: Checking out smap_interfaces
         uses: actions/checkout@v3
       - name: Building and testing
         uses: ichiro-its/ros2-ci@v1.0.0
