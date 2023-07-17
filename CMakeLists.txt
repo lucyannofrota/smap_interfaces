@@ -25,7 +25,7 @@ set(MSG_FILES
     "msg/SmapDetectionDebug.msg"
     "msg/BoundingBox2D.msg"
     "msg/BoundingBox3D.msg"
-    "msg/OcclusionMap.msg"
+    "msg/DepthMap.msg"
 )
 
 set(SRV_FILES
