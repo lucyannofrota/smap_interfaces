@@ -45,4 +45,31 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 ament_export_dependencies(rosidl_default_runtime)
+
+include_directories(include/smap_interfaces)
+
+# install(
+#     TARGETS smap_interfaces
+#     EXPORT export_${PROJECT_NAME}
+#     # ARCHIVE DESTINATION lib
+#     # LIBRARY DESTINATION lib
+#     # RUNTIME DESTINATION bin
+# )
+    
+# ament_export_targets(export_${PROJECT_NAME} HAS_LIBRARY_TARGET)
+
+install(
+  DIRECTORY include/smap_interfaces
+  DESTINATION include
+)
+
+# install(
+#   TARGETS smap_interfaces
+#   EXPORT smap_interfaces
+#   LIBRARY DESTINATION lib
+#   ARCHIVE DESTINATION lib
+#   RUNTIME DESTINATION bin
+#   INCLUDES DESTINATION include
+# )
+
 ament_package()
